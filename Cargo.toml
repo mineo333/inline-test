@@ -1,0 +1,11 @@
+[package]
+name = "inline_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inline-c = {git = 'https://github.com/mineo333/inline-c-rs' }
+tempfile = "3.9.0"
+libloading = "0.8"
