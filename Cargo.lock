@@ -115,7 +115,6 @@ dependencies = [
 [[package]]
 name = "inline-c"
 version = "0.1.7"
-source = "git+https://github.com/mineo333/inline-c-rs#8bc8a9f23b88581e19f0d0d3826b8e2150a27aea"
 dependencies = [
  "assert_cmd",
  "cc",
@@ -131,7 +130,6 @@ dependencies = [
 [[package]]
 name = "inline-c-macro"
 version = "0.1.6"
-source = "git+https://github.com/mineo333/inline-c-rs#8bc8a9f23b88581e19f0d0d3826b8e2150a27aea"
 dependencies = [
  "proc-macro2",
  "quote",
