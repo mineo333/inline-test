@@ -113,34 +113,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "inline-c"
-version = "0.1.7"
-dependencies = [
- "assert_cmd",
- "cc",
- "inline-c-macro",
- "lazy_static",
- "predicates",
- "regex",
- "rustc_version",
- "target-lexicon",
- "tempfile",
-]
-
-[[package]]
-name = "inline-c-macro"
-version = "0.1.6"
-dependencies = [
- "proc-macro2",
- "quote",
- "rustc_version",
-]
-
-[[package]]
 name = "inline_test"
 version = "0.1.0"
 dependencies = [
- "inline-c",
+ "libafl_inline_c",
  "libloading",
  "tempfile",
 ]
@@ -159,6 +135,30 @@ name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
+
+[[package]]
+name = "libafl_inline_c"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "cc",
+ "lazy_static",
+ "libafl_inline_c_macro",
+ "predicates",
+ "regex",
+ "rustc_version",
+ "target-lexicon",
+ "tempfile",
+]
+
+[[package]]
+name = "libafl_inline_c_macro"
+version = "0.1.6"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "rustc_version",
+]
 
 [[package]]
 name = "libc"

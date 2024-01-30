@@ -6,7 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-#inline-c = {git = 'https://github.com/mineo333/inline-c-rs' }
-inline-c = {path = '../inline-c-rs' }
+
+#inline-c = {git = 'https://github.com/mineo333/libafl-inline-c-rs' }
+libafl_inline_c = {path = '../libafl-inline-c-rs' }
 tempfile = "3.9.0"
 libloading = "0.8"
